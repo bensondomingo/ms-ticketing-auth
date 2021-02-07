@@ -5,4 +5,4 @@ router.get("/signin", (req, res) => {
   res.send("signin endpoint");
 });
 
-module.exports = router;
+export default router;

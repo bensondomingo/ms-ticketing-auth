@@ -5,4 +5,4 @@ router.get("/signout", (req, res) => {
   res.send("signout endpoint");
 });
 
-module.exports = router;
+export default router;

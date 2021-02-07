@@ -2,7 +2,7 @@ import express from "express";
 const router = express.Router();
 
 router.get("/currentuser", (req, res) => {
-  res.send("current-user endpoint");
+  res.send("currentuser endpoint");
 });
 
-module.exports = router;
+export default router;
