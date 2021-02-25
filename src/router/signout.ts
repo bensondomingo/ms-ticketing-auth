@@ -1,8 +1,8 @@
-import express from "express";
-const router = express.Router();
+import express from 'express'
+const router = express.Router()
 
-router.get("/signout", (req, res) => {
-  res.send("signout endpoint");
-});
+router.get('/signout', (req, res) => {
+  res.send('signout endpoint')
+})
 
-export default router;
+export default router
